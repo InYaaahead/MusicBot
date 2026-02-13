@@ -30,10 +30,10 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "ishaan.hidencloud.com", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 24590,       
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "KaAs", 
-                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'false' || true
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "pnode1.danbot.host", 
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 1186,       
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "Kaun.Yuvraj", 
+                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
             },    
             
             /**
@@ -101,6 +101,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
